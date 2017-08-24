@@ -10,7 +10,7 @@ except ImportError:
 
 
 class Conversion(object):
-    def __init__(self, email):
+    def __init__(self, email="dummy@example.com"):
         '''Must Include Email'''
         self.params = {}
         self.email = email
